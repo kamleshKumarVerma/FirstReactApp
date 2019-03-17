@@ -1,14 +1,30 @@
+:root {
+  --bodyBackgroundColor: #ebeced;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  box-sizing: border-box;
+  background-color: var(--bodyBackgroundColor) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.main {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+.main button {
+  height: 40px;
+  background: red;
+  color: aquamarine
+}
+
+.user {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
 }
