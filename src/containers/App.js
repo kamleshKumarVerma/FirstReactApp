@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Main from '../components/Main';
-import User from '../components/User';
+import { Main } from '../components/Main';
+import { User } from '../components/User';
 import { connect } from 'react-redux';
-import { setName } from '../actions/actions';
+import { setName } from '../actions/userAction';
 
 class App extends Component {
   constructor(props) {

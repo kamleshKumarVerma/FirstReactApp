@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class  Main extends Component {
-    render() { 
-        return ( 
-            <div className="main">
-                <button onClick={()=> this.props.changeName("raj")}>Change Name</button>
-            </div>
-        );
-    }
-}
-
-export default  Main;
+export const Main = (props) => {
+    return (
+        <div className="main">
+            <button onClick={() => props.changeName("raj")}>Change Name</button>
+        </div>
+    );
+};
